@@ -15,7 +15,7 @@
   }
 
   &__content {
-    padding-inline: 20px;
+    @include content-padding-inline;
   }
 
   &__phone-number {
@@ -39,10 +39,9 @@
     letter-spacing: 2px;
 
     padding-bottom: 7px;
-    border-bottom: 1px solid #1D1D1D;
+    border-bottom: 1px solid $menu-item-color;
     width: fit-content;
   }
-
 }
 
 
