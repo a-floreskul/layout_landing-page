@@ -1,0 +1,5 @@
+.main {
+  @include content-padding-inline;
+
+  display: grid;
+}
