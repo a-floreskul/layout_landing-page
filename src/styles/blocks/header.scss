@@ -1,14 +1,11 @@
 .header {
   // display: none !important;
-  box-sizing: border-box;
-  height: 100vh;
+
   background-image: url(../images/header-bg-mobile.png);
   background-size: cover;
   background-position: 90% center;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
 
   &__title {
     font-weight: 700;
@@ -21,11 +18,17 @@
     }
   }
 
+  &__content {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   &__bottom {
     text-align: center;
     padding-bottom: 88px;
-
-    @include content-padding-inline;
 
     @include on-tablet {
       padding-bottom: 130px;

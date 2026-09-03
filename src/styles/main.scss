@@ -12,3 +12,8 @@
 @import './blocks/sections/move-free';
 @import './blocks/sections/compare-bikes';
 
+// not part of BEM, used to restrict content!
+.container {
+  @include content-padding-inline;
+}
+

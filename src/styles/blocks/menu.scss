@@ -14,10 +14,6 @@
     margin-bottom: 40px;
   }
 
-  &__content {
-    @include content-padding-inline;
-  }
-
   &__phone-number {
     color: $menu-item-color;
     text-decoration: none;
