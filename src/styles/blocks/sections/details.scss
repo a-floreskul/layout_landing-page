@@ -1,5 +1,5 @@
 .details {
-  &__wraper {
+  &__detail-wraper {
     display: grid;
     row-gap: 40px;
 
@@ -17,6 +17,26 @@
 
     @include on-desktop {
       margin-bottom: 48px;
+    }
+  }
+
+  &__button-wraper {
+    @include page-grid;
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 32px;
+    grid-column: span 2;
+
+    @include on-tablet {
+      margin-top: 48px;
+      grid-column: 2 / -2
+    }
+
+    @include on-desktop {
+      margin-top: 48px;
+      grid-column: 5 / -5
     }
   }
 }
