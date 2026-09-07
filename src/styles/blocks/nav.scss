@@ -17,5 +17,25 @@
     line-height: 22px;
     font-weight: 600;
     letter-spacing: 2px;
+
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      height: 1px;
+      background-color: $menu-item-color;
+      display: block;
+      width: 100%;
+
+      transform: scale(0);
+      transition: transform $animation-time;
+      transform-origin: left;
+    }
+
+    &:hover::after {
+      transform: scale(1);
+    }
   }
 }
