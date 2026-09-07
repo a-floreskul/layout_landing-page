@@ -2,21 +2,21 @@
 
 A responsive landing page built as a portfolio project, based on a Figma design for a bicycle-themed website. The layout was implemented from scratch using semantic HTML and SCSS, focusing on pixel-accurate styling and responsive behavior across devices.
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **HTML5** — semantic markup
 - **SCSS (Sass)** — modular, maintainable styling
 - **CSS3** — flexbox/grid layouts, responsive design
 
-## 🔗 Live Preview
+## Live Preview
 
 [View Live Demo](https://a-floreskul.github.io/layout_landing-page/)
 
-## 🎨 Design Source
+## Design Source
 
 [Figma Design File](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally, follow the steps below.
 
@@ -49,6 +49,6 @@ npm start
 
 The project will be available in your browser at the local address provided in the terminal output (typically `http://localhost:3000` or similar, depending on the build tool configuration).
 
-## 📄 License
+## License
 
 This project was created for portfolio and educational purposes.

@@ -46,8 +46,10 @@
     @include page-grid;
   }
 
-  &__link {
+  &__wraper {
     position: relative;
+
+    @include hover(transform, scale(1.05));
 
     &--wide {
       @include on-tablet {
