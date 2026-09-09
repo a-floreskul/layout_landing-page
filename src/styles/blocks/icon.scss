@@ -29,20 +29,27 @@
       color: #fff;
       font-size: 13px;
       padding: 4px 10px;
-      padding-right: 18px;   // замість margin-right — "буфер" всередині хітбоксу
+      padding-right: 18px;
       border-radius: 4px;
+      display: none;
 
       opacity: 0;
       visibility: hidden;
       transition: opacity .25s ease, transform .25s ease;
+
+      @include on-desktop {
+        display: block;
+      }
     }
 
-    &:hover,
-    &:focus-visible {
-      .icon--phone__number {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(-50%) translateX(0);
+    @include on-desktop {
+      &:hover,
+      &:focus-visible {
+        .icon--phone__number {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(-50%) translateX(0);
+        }
       }
     }
   }
@@ -59,4 +66,3 @@
     background-image: url(../images/icons/icon-close.svg);
   }
 }
-
